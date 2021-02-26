@@ -4,11 +4,11 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="t.Views.Item1">
+             x:Class="t.Views.Item2">
     <ContentPage.Content>
         <StackLayout HorizontalOptions="Center" Margin="10">
             <!--<Image x:Name="Koko" Source="Resources/drawable/gio2.jpg"></Image>
-            <Label Text="Проверочка" Font="20" TextColor="Beige" HorizontalTextAlignment="Center"></Label>-->
+            <Label Text="" Font="20" TextColor="Beige" HorizontalTextAlignment="Center"></Label>-->
             <Button x:Name="btn" Text="---" BackgroundColor="#ffcccc" Clicked="btn_Clicked">
             </Button>
         </StackLayout>

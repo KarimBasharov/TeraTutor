@@ -3,24 +3,33 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Xamarin.Essentials;
+
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
 namespace t.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class Item1 : ContentPage
+    public partial class RecipeO : ContentPage
     {
-        public Item1()
+        public RecipeO()
         {
             InitializeComponent();
         }
 
-        private async void btn_Clicked(object sender, EventArgs e)
+        private void Button_Clicked(object sender, EventArgs e)
         {
-            Uri uri = new Uri("");
-            await Browser.OpenAsync(uri);
+
+        }
+
+        private void Button_Clicked_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Button_Clicked_2(object sender, EventArgs e)
+        {
+
         }
     }
 }

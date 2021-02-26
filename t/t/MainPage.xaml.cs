@@ -31,13 +31,19 @@ namespace t
             {
                 Text = "Броня",
                 ImagePath = "ar.png",
-                TargetPage = typeof(Views.Item1)
+                TargetPage = typeof(Views.Item2)
             });
             list.Add(new MasterMenuItems()
             {
                 Text = "Оружие",
                 ImagePath = "we.png",
-                TargetPage = typeof(Views.Item1)
+                TargetPage = typeof(Views.Item3)
+            });
+            list.Add(new MasterMenuItems()
+            {
+                Text = "Крылья",
+                ImagePath = "sunwin.png",
+                TargetPage = typeof(Views.Item4)
             });
             return list;
         }
